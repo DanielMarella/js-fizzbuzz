@@ -13,6 +13,7 @@ for (let number = 0; number <= 100; number++){
         const liElement = document.createElement('li');
         liElement.innerHTML = 'Fizz ' + '( ' + number + ' )';
         ulElement.append(liElement);
+
     }
     else if(number % 5 === 0){
         console.log('Buzz');
@@ -26,4 +27,5 @@ for (let number = 0; number <= 100; number++){
         liElement.innerHTML = number;
         ulElement.append(liElement);
     }
+
 }

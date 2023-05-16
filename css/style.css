@@ -15,4 +15,22 @@ li{
     border: 3px solid blue;
     list-style-type: none;
     padding: 10px 10px;
+    color: orange;
 }
+
+
+li:nth-of-type(3n + 1) {
+    color: red;
+}
+
+
+li:nth-of-type(5n + 1) {
+    color: violet;
+}
+
+
+li:nth-of-type(15n + 1) {
+    color: green;
+}
+
+
