@@ -5,6 +5,10 @@
     height: 400px;
 }
 
+button{
+    margin: 100px;
+}
+
 ul{
     padding: 0 20px;
     display: flex;
